@@ -47,43 +47,102 @@ body {
 .navbar-toggler {
   outline: none !important;
 }
+  /* <!------------Page-2 Frame Section --------------> */
 
-/* .d-block{
-  width: 100vw;
-  height: 150vh;
-} */
+.Featured-category{
+margin: 40px 0;
+}
+
+.Featured-category img{
+  width:100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.wrapper button{
+ background: #000000;
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  box-shadow: none !important;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.wrapper button:hover{
+  color: #fff;
+  background: #BA7B48;
+}
+/* <!-- ========================More Nike products Section===================================== --> */
+
+.more-products{
+margin: 30px 0;
+}
+
+.title-box{
+  background-color: #00b894;
+  color: #fff;
+  width: 190px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box h3{
+  font-size: 24px;
+}
 
 
-/* <!------------FIND US ON SOCIAL MEDIA  Section--------------> */
+.title-box::after{
+  content: '';
+  border-top: 40px solid #00b894;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 179px;
+}
 
-#social-media {
-  /* background: rgba(28, 42, 46, 0.856); */
+.more-products img{
+  width:100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper .btn{
+  z-index: 1;
+  top: 20%;
+
+}
+
+.More-products .btn {
   background: #000000;
-  padding-top: 220px;
-  padding-bottom: 100px;
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  width: 99px;
+  /* border-radius: 19px; */
+  box-shadow: none !important;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 60px;
 }
 
-
-.fish{
-  opacity: 0.15;
-
+.More-products .btn:hover{
+ color: #fff;
 }
 
-#fish{
-  opacity: 1;
-  transform: translate3d(60.077px);
-  width: 160px;
-}
-
-#tree{
-  width:220px; 
-  opacity: 1;
-  bottom: -20px;
-  transform: translate3d(0px, 100px, 100px)
-  
-}
 /* <!------------Footer Section--------------> */
-
 
 #footer {
   background: #1C2A2E;
@@ -94,8 +153,6 @@ body {
 #footer p {
   font-size: 16px;
 }
-
-
 
 .logo-img {
   position: absolute;
@@ -141,17 +198,20 @@ body {
   box-shadow: none !important;
   border: none;
 }
+
 .btn-primary:hover{
   color: #BA7B48;
 }
 
 .address:hover {
-  border-bottom: 1px solid #DBC295;
-  
+  border-bottom: 1px solid #BA7B48;
+  color: #BA7B48;
 }
+
 .para {
   margin-top: 10%;
 }
+
 hr {
   background: #BA7B48;
 }
@@ -189,11 +249,8 @@ hr {
   margin-left: -40%; 
   margin-top: 25%;
 }
+
 }
-
-
-
-
  
 @media screen and (min-width:1000px){
     
@@ -206,7 +263,7 @@ hr {
 }
 }
 
-
+/* ================================= CSS for Men Page started============================================ */
 
 
 
