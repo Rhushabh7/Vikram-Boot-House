@@ -4,24 +4,22 @@
 }
 body {
   font-family: sans-serif;
-  /* =================================Navbar section============================================ */
+  }
 
-}
+
+  /*-----------------------------Navbar section-------------------------- */
+
+
 #nav-bar {
   position: sticky;
   top: 0;
   z-index: 10;
+  /* font-size: 14px; */
 }
 
-.active, .nav-item:hover {
-  /* background-color: rgba(186, 123, 72, 0.253); */
-  /* background-color:rgba(186, 123, 72, 0.26);*/
-  border-bottom: 2px solid #000000;
-  
-}
 
 .navbar {
-  background-color:  #DBC295;
+  background-color:#DBC295;
   padding: 0 !important;
   /* height: 70px; */
 }
@@ -40,14 +38,49 @@ body {
   float: right;
   text-align: left;
 }
+
+#nav-bar .dropdown-menu{
+  float: right;
+  background-color: #DBC295;
+  box-shadow: none !important;
+  border: none;
+  text-align-last:right;
+}
+
 .fa-bars {
   color: #000000;
   font-size: 30px !important;
 }
 .navbar-toggler {
   outline: none !important;
+
 }
-  /* <!------------Page-2 Frame Section --------------> */
+
+@media only screen and (min-width:1000px){
+    
+.active, .nav-item:hover {
+  /* background-color: rgba(186, 123, 72, 0.253); */
+  /* background-color:rgba(186, 123, 72, 0.26);*/
+  border-bottom: 2px solid #000000;
+}
+
+#nav-bar .dropdown-menu{
+  font-size: 14px;
+  float: right;
+  background-color: #DBC295;
+  box-shadow: none !important;
+  border: none;
+  text-align-last:left;
+  border-radius: 0px;
+  padding: 0;
+  margin-top: -1px;
+  border-radius: 3px;
+
+}
+
+}
+
+/* <!-----------------------Page-2 Frame Section ---------------------------> */
 
 .Featured-category{
 margin: 40px 0;
@@ -75,14 +108,16 @@ margin: 40px 0;
   color: #fff;
   background: #BA7B48;
 }
-/* <!-- ========================More Nike products Section===================================== --> */
+
+
+/* <!---------------------More Nike products Section--------------------> */
 
 .more-products{
 margin: 30px 0;
 }
 
-.title-box{
-  background-color: #00b894;
+.title-box-more_product{
+  background-color: #009432;
   color: #fff;
   width: 190px;
   padding: 4px 10px;
@@ -92,14 +127,14 @@ margin: 30px 0;
   border-radius: 3px;
 }
 
-.title-box h3{
+.title-box-more_product h3{
   font-size: 24px;
 }
 
 
-.title-box::after{
+.title-box-more_product::after{
   content: '';
-  border-top: 40px solid #00b894;
+  border-top: 40px solid #009432;
   border-right: 50px solid transparent;
   position: absolute;
   display: flex;
@@ -142,7 +177,7 @@ margin: 30px 0;
  color: #fff;
 }
 
-/* <!------------Footer Section--------------> */
+/* <!------------------------------------Footer Section--------------------------> */
 
 #footer {
   background: #1C2A2E;
@@ -261,11 +296,94 @@ hr {
   margin-left: 9%; 
   margin-top: 18%;
 }
+
+}
+/* <!-- ===============================Index Page finished here================================== --> */
+
+
+
+
+
+
+
+
+/* ================================================================================================== */
+/* ================================= CSS for Men Page started from here============================================ */
+/* ================================================================================================== */
+
+
+
+/* <!----------------Men's-shoes section----------------------> */
+.mens-shoes{
+margin: 40px 0;
 }
 
-/* ================================= CSS for Men Page started============================================ */
+.mens-shoes img{
+  width:100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+/* <!----------------Men's Shoes section----------------------> */
+.title-box-men{
+  background-color: #00b894;
+  color: #fff;
+  width: 170px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-men h3{
+  font-size: 24px;
+}
+
+.title-box-men::after{
+  content: '';
+  border-top: 40px solid #00b894;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 159px;
+}
+
+/* <!--------------------------------------------------------------------------------------> */
 
 
 
+/* ================================================================================================== */
+/* ================================= CSS for Women Page started from here======================================== */
+/* ================================================================================================== */
 
 
+
+/* <!------------------Women's-shoes section--------------------------> */
+
+.title-box-women{
+  background-color: #fd79a8;
+  color: #fff;
+  width: 195px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-women h3{
+  font-size: 24px;
+}
+
+
+.title-box-women::after{
+  content: '';
+  border-top: 40px solid #fd79a8;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 183px;
+}
