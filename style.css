@@ -7,7 +7,7 @@ body {
   }
 
 
-  /*-----------------------------Navbar section-------------------------- */
+/*-----------------------------Navbar section-------------------------- */
 
 
 #nav-bar {
@@ -23,10 +23,18 @@ body {
   padding: 0 !important;
   /* height: 70px; */
 }
-.navbar-brand img {
+/* .navbar-brand img {
   height: 50px;
   padding-left: 20px;
+} */
+
+
+  .navbar-brand img {          /*nabar for big screen*/
+  height: 60px;
+  padding-left: 300px;
+
 }
+
 
 .navbar-nav li {
   padding: 0 10px;
@@ -298,6 +306,18 @@ hr {
 }
 
 }
+
+@media only screen and (min-width:1000px){         /*nabar for big screen*/
+
+.navbar-brand img {
+  height: 50px;
+  padding-left: 20px;
+}
+
+}
+
+
+
 /* <!-- ===============================Index Page finished here================================== --> */
 
 
@@ -381,6 +401,83 @@ margin: 40px 0;
 .title-box-women::after{
   content: '';
   border-top: 40px solid #fd79a8;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 183px;
+}
+
+
+
+/* ================================================================================================== */
+/* ================================= CSS for Children Page started from here============================================ */
+/* ================================================================================================== */
+
+
+
+/* <!------------------Kids-shoes section--------------------------> */
+.title-box-kids{
+  background-color: #FF3D00;
+  color: #fff;
+  width: 195px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-kids h3{
+  font-size: 24px;
+}
+
+
+.title-box-kids::after{
+  content: '';
+  border-top: 40px solid #FF3D00;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 183px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================================== */
+/* ================================= CSS for Children Page started from here============================================ */
+/* ================================================================================================== */
+
+
+
+/* <!------------------Kids-shoes section--------------------------> */
+.title-box-mens_sandal{
+  background-color: #f1c40f;
+  color: #fff;
+  width: 195px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-mens_sandal h3{
+  font-size: 24px;
+}
+
+
+.title-box-mens_sandal::after{
+  content: '';
+  border-top: 40px solid #f1c40f;
   border-right: 50px solid transparent;
   position: absolute;
   display: flex;
