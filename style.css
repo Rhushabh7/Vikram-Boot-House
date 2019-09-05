@@ -486,6 +486,9 @@ margin: 40px 0;
 }
 
 
+
+/*----------------------- Mens chappal---------------------- */
+
 .title-box-mens_chappal{
   background-color: #795548;
   color: #fff;
@@ -510,4 +513,61 @@ margin: 40px 0;
   display: flex;
   margin-top: -4px;
   margin-left: 183px;
+}
+
+
+/*----------------------- Mens office shoes---------------------- */
+
+.title-box-men_officeshoes{
+  background-color: #000000;
+  color: #fff;
+  width: 225px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-men_officeshoes h3{
+  font-size: 24px;
+}
+
+
+.title-box-men_officeshoes::after{
+  content: '';
+  border-top: 40px solid #000000;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 213px;
+}
+
+/*----------------------- Women's chappal--------------------- */
+
+.title-box-womens_chappal{
+  background-color: #F44336;
+  color: #fff;
+  width: 215px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-womens_chappal h3{
+  font-size: 24px;
+}
+
+
+.title-box-womens_chappal::after{
+  content: '';
+  border-top: 40px solid #F44336;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 203px;
 }
