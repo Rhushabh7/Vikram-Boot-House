@@ -5,7 +5,6 @@
   padding: 0;
 }
 body {
-
 }
 
 /*-----------------------------Navbar section-------------------------- */
@@ -348,22 +347,11 @@ hr {
 /* ================================= CSS for Men Page started from here============================================ */
 /* ================================================================================================== */
 
-/* <!----------------Men's-shoes section----------------------> */
-.mens-shoes {
-  margin: 40px 0;
-}
-
-.mens-shoes img {
-  width: 100%;
-  padding: 20px 0;
-  transition: 1s;
-  cursor: pointer;
-}
 /* <!----------------Men's Shoes section----------------------> */
 .title-box-men {
   background-color: #00b894;
   color: #fff;
-  width: 170px;
+  width: 235px;
   padding: 4px 10px;
   height: 40px;
   margin-bottom: 30px;
@@ -382,81 +370,25 @@ hr {
   position: absolute;
   display: flex;
   margin-top: -4px;
-  margin-left: 159px;
+  margin-left: 224px;
 }
 
-/* <!--------------------------------------------------------------------------------------> */
-
-/* ================================================================================================== */
-/* ================================= CSS for Women Page started from here======================================== */
-/* ================================================================================================== */
-
-/* <!------------------Women's-shoes section--------------------------> */
-
-.title-box-women {
-  background-color: #fd79a8;
-  color: #fff;
-  width: 195px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+.mens-shoes {
+  margin: 40px 0;
 }
 
-.title-box-women h3 {
-  font-size: 24px;
+.mens-shoes img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
 }
 
-.title-box-women::after {
-  content: "";
-  border-top: 40px solid #fd79a8;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 183px;
-}
-
-/* ================================================================================================== */
-/* ================================= CSS for Children Page started from here============================================ */
-/* ================================================================================================== */
-
-/* <!------------------Kids-shoes section--------------------------> */
-.title-box-kids {
-  background-color: #ff3d00;
-  color: #fff;
-  width: 195px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
-}
-
-.title-box-kids h3 {
-  font-size: 24px;
-}
-
-.title-box-kids::after {
-  content: "";
-  border-top: 40px solid #ff3d00;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 183px;
-}
-
-/* ================================================================================================== */
-/* ================================= CSS for Children Page started from here============================================ */
-/* ================================================================================================== */
-
-/* <!------------------Kids-shoes section--------------------------> */
+/* <!------------------Mens-Sandal section--------------------------> */
 .title-box-mens_sandal {
   background-color: #f1c40f;
   color: #fff;
-  width: 195px;
+  width: 175px;
   padding: 4px 10px;
   height: 40px;
   margin-bottom: 30px;
@@ -475,7 +407,7 @@ hr {
   position: absolute;
   display: flex;
   margin-top: -4px;
-  margin-left: 183px;
+  margin-left: 163px;
 }
 
 /*----------------------- Mens chappal---------------------- */
@@ -532,12 +464,18 @@ hr {
   margin-left: 213px;
 }
 
-/*----------------------- Women's chappal--------------------- */
+/* <!--------------------------------------------------------------------------------------> */
 
-.title-box-womens_chappal {
-  background-color: #f44336;
+/* ================================================================================================== */
+/* ================================= CSS for Women Page started from here======================================== */
+/* ================================================================================================== */
+
+/* <!------------------Women's-shoes section--------------------------> */
+
+.title-box-women {
+  background-color: #fd79a8;
   color: #fff;
-  width: 215px;
+  width: 195px;
   padding: 4px 10px;
   height: 40px;
   margin-bottom: 30px;
@@ -545,16 +483,144 @@ hr {
   border-radius: 3px;
 }
 
-.title-box-womens_chappal h3 {
+.title-box-women h3 {
   font-size: 24px;
 }
 
-.title-box-womens_chappal::after {
+.title-box-women::after {
+  content: "";
+  border-top: 40px solid #fd79a8;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 183px;
+}
+
+.women-shoes {
+  margin: 40px 0;
+}
+
+.women-shoes img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/*----------------------- Women's Chappal--------------------- */
+
+.title-box-women_chappal {
+  background-color: #273c75;
+  color: #fff;
+  width: 230px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-women_chappal h3 {
+  font-size: 24px;
+}
+
+.title-box-women_chappal::after {
+  content: "";
+  border-top: 40px solid #273c75;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 218px;
+}
+
+.women-chappal {
+  margin: 40px 0;
+}
+
+.women-chappal img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/*----------------------- Women's sandal--------------------- */
+
+.title-box-women_sandal {
+  background-color: #f44336;
+  color: #fff;
+  width: 195px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-women_sandal h3 {
+  font-size: 24px;
+}
+
+.title-box-women_sandal::after {
   content: "";
   border-top: 40px solid #f44336;
   border-right: 50px solid transparent;
   position: absolute;
   display: flex;
   margin-top: -4px;
-  margin-left: 203px;
+  margin-left: 184px;
+}
+
+.women-sandal {
+  margin: 40px 0;
+}
+
+.women-sandal img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* ================================================================================================== */
+/* ================================= CSS for Children Page started from here============================================ */
+/* ================================================================================================== */
+
+/* <!------------------Kids-shoes section--------------------------> */
+.title-box-kids {
+  background-color: #ff3d00;
+  color: #fff;
+  width: 210px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
+
+.title-box-kids h3 {
+  font-size: 24px;
+}
+
+.title-box-kids::after {
+  content: "";
+  border-top: 40px solid #ff3d00;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 198px;
+}
+
+.kids-shoes {
+  margin: 40px 0;
+}
+
+.kids-shoes img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
 }
