@@ -5,6 +5,7 @@
   padding: 0;
 }
 body {
+  box-sizing: border-box;
 }
 
 /*-----------------------------Navbar section-------------------------- */
@@ -57,7 +58,7 @@ body {
 }
 
 .fa-bars {
-  color: #000000f3;
+  color: #000000;
   font-size: 30px !important;
 }
 
@@ -753,7 +754,7 @@ hr {
 
 /*----------------------- Women's sandal--------------------- */
 
-@media only screen and (min-width: 250px) {
+@media only screen and (min-width: 360px) {
   .title-box-women_sandal {
     background-color: #f44336;
     color: #fff;
@@ -779,7 +780,7 @@ hr {
     margin-left: 164px;
   }
 }
-
+/* 
 @media only screen and (min-width: 900px) {
   .title-box-women_sandal {
     background-color: #f44336;
@@ -805,7 +806,7 @@ hr {
     margin-top: -4px;
     margin-left: 184px;
   }
-}
+} */
 
 .women-sandal {
   margin: 40px 0;
