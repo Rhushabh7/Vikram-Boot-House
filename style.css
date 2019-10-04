@@ -9,7 +9,7 @@ body {
 
 /*-----------------------------Navbar section-------------------------- */
 
-@media only screen and (min-width: 200px) {
+@media only screen and (min-width: 320px) {
   #nav-bar {
     position: sticky;
     top: 0;
@@ -312,7 +312,7 @@ hr {
   color: #1c2a2e;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
   .logo-img {
     position: absolute;
     height: 75%;
@@ -348,122 +348,248 @@ hr {
 /* ================================================================================================== */
 
 /* <!----------------Men's Shoes section----------------------> */
-.title-box-men {
-  background-color: #00b894;
-  color: #fff;
-  width: 235px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+
+@media only screen and (min-width: 320px) {
+  .title-box-men {
+    background-color: #00b894;
+    color: #fff;
+    width: 164px;
+    padding: 4px 10px;
+    height: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-men h3 {
+    font-size: 16px;
+  }
+
+  .title-box-men::after {
+    content: "";
+    border-top: 30px solid #00b894;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 152px;
+  }
+
+  .mens-shoes {
+    margin: 40px 0;
+  }
+
+  .mens-shoes img {
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+  }
 }
 
-.title-box-men h3 {
-  font-size: 24px;
-}
+@media only screen and (min-width: 1000px) {
+  .title-box-men {
+    background-color: #00b894;
+    color: #fff;
+    width: 235px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-men::after {
-  content: "";
-  border-top: 40px solid #00b894;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 224px;
-}
+  .title-box-men h3 {
+    font-size: 24px;
+  }
 
-.mens-shoes {
-  margin: 40px 0;
-}
+  .title-box-men::after {
+    content: "";
+    border-top: 40px solid #00b894;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 224px;
+  }
 
-.mens-shoes img {
-  width: 100%;
-  padding: 20px 0;
-  transition: 1s;
-  cursor: pointer;
+  .mens-shoes {
+    margin: 40px 0;
+  }
+
+  .mens-shoes img {
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+  }
 }
 
 /* <!------------------Mens-Sandal section--------------------------> */
-.title-box-mens_sandal {
-  background-color: #f1c40f;
-  color: #fff;
-  width: 175px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+
+@media only screen and (min-width: 320px) {
+  .title-box-mens_sandal {
+    background-color: #f1c40f;
+    color: #fff;
+    width: 120px;
+    padding: 4px 10px;
+    height: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-mens_sandal h3 {
+    font-size: 16px;
+  }
+
+  .title-box-mens_sandal::after {
+    content: "";
+    border-top: 30px solid #f1c40f;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 108px;
+  }
 }
 
-.title-box-mens_sandal h3 {
-  font-size: 24px;
-}
+@media only screen and (min-width: 1000px) {
+  .title-box-mens_sandal {
+    background-color: #f1c40f;
+    color: #fff;
+    width: 175px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-mens_sandal::after {
-  content: "";
-  border-top: 40px solid #f1c40f;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 163px;
-}
+  .title-box-mens_sandal h3 {
+    font-size: 24px;
+  }
 
+  .title-box-mens_sandal::after {
+    content: "";
+    border-top: 40px solid #f1c40f;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 163px;
+  }
+}
 /*----------------------- Mens chappal---------------------- */
 
-.title-box-mens_chappal {
-  background-color: #795548;
-  color: #fff;
-  width: 195px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+@media only screen and (min-width: 320px) {
+  .title-box-mens_chappal {
+    background-color: #795548;
+    color: #fff;
+    width: 130px;
+    padding: 4px 10px;
+    height: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-mens_chappal h3 {
+    font-size: 16px;
+  }
+
+  .title-box-mens_chappal::after {
+    content: "";
+    border-top: 30px solid #795548;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 118px;
+  }
 }
 
-.title-box-mens_chappal h3 {
-  font-size: 24px;
-}
+@media only screen and (min-width: 1000px) {
+  .title-box-mens_chappal {
+    background-color: #795548;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-mens_chappal::after {
-  content: "";
-  border-top: 40px solid #795548;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 183px;
-}
+  .title-box-mens_chappal h3 {
+    font-size: 24px;
+  }
 
+  .title-box-mens_chappal::after {
+    content: "";
+    border-top: 40px solid #795548;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 183px;
+  }
+}
 /*----------------------- Mens office shoes---------------------- */
 
-.title-box-men_officeshoes {
-  background-color: #000000;
-  color: #fff;
-  width: 225px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+@media only screen and (min-width: 320px) {
+  .title-box-men_officeshoes {
+    background-color: #000000;
+    color: #fff;
+    width: 157px;
+    padding: 4px 10px;
+    height: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-men_officeshoes h3 {
+    font-size: 16px;
+  }
+
+  .title-box-men_officeshoes::after {
+    content: "";
+    border-top: 30px solid #000000;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 145px;
+  }
 }
 
-.title-box-men_officeshoes h3 {
-  font-size: 24px;
-}
+@media only screen and (min-width: 1000px) {
+  .title-box-men_officeshoes {
+    background-color: #000000;
+    color: #fff;
+    width: 225px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-men_officeshoes::after {
-  content: "";
-  border-top: 40px solid #000000;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 213px;
-}
+  .title-box-men_officeshoes h3 {
+    font-size: 24px;
+  }
 
+  .title-box-men_officeshoes::after {
+    content: "";
+    border-top: 40px solid #000000;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 213px;
+  }
+}
 /* <!--------------------------------------------------------------------------------------> */
 
 /* ================================================================================================== */
@@ -472,67 +598,100 @@ hr {
 
 /* <!------------------Women's-shoes section--------------------------> */
 
-.title-box-women {
-  background-color: #fd79a8;
-  color: #fff;
-  width: 195px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+@media only screen and (min-width: 320px) {
+  .title-box-women {
+    background-color: #fd79a8;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women h3 {
+    font-size: 24px;
+  }
 }
 
-.title-box-women h3 {
-  font-size: 24px;
-}
+@media only screen and (min-width: 1000px) {
+  .title-box-women::after {
+    content: "";
+    border-top: 40px solid #fd79a8;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 183px;
+  }
 
-.title-box-women::after {
-  content: "";
-  border-top: 40px solid #fd79a8;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 183px;
-}
+  .women-shoes {
+    margin: 40px 0;
+  }
 
-.women-shoes {
-  margin: 40px 0;
-}
-
-.women-shoes img {
-  width: 100%;
-  padding: 20px 0;
-  transition: 1s;
-  cursor: pointer;
+  .women-shoes img {
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+  }
 }
 
 /*----------------------- Women's Chappal--------------------- */
 
-.title-box-women_chappal {
-  background-color: #273c75;
-  color: #fff;
-  width: 230px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+@media only screen and (min-width: 320px) {
+  .title-box-women_chappal {
+    background-color: #273c75;
+    color: #fff;
+    width: 230px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women_chappal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_chappal::after {
+    content: "";
+    border-top: 40px solid #273c75;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 218px;
+  }
 }
 
-.title-box-women_chappal h3 {
-  font-size: 24px;
-}
+@media only screen and (min-width: 1000px) {
+  .title-box-women_chappal {
+    background-color: #273c75;
+    color: #fff;
+    width: 230px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-women_chappal::after {
-  content: "";
-  border-top: 40px solid #273c75;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 218px;
+  .title-box-women_chappal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_chappal::after {
+    content: "";
+    border-top: 40px solid #273c75;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 218px;
+  }
 }
 
 .women-chappal {
@@ -547,30 +706,58 @@ hr {
 }
 
 /*----------------------- Women's sandal--------------------- */
+@media only screen and (min-width: 320px) {
+  .title-box-women_sandal {
+    background-color: #f44336;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-women_sandal {
-  background-color: #f44336;
-  color: #fff;
-  width: 195px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+  .title-box-women_sandal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_sandal::after {
+    content: "";
+    border-top: 40px solid #f44336;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 184px;
+  }
 }
 
-.title-box-women_sandal h3 {
-  font-size: 24px;
-}
+@media only screen and (min-width: 1000px) {
+  .title-box-women_sandal {
+    background-color: #f44336;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-women_sandal::after {
-  content: "";
-  border-top: 40px solid #f44336;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 184px;
+  .title-box-women_sandal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_sandal::after {
+    content: "";
+    border-top: 40px solid #f44336;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 184px;
+  }
 }
 
 .women-sandal {
@@ -589,29 +776,58 @@ hr {
 /* ================================================================================================== */
 
 /* <!------------------Kids-shoes section--------------------------> */
-.title-box-kids {
-  background-color: #ff3d00;
-  color: #fff;
-  width: 210px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
+@media only screen and (min-width: 320px) {
+  .title-box-kids {
+    background-color: #ff3d00;
+    color: #fff;
+    width: 210px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-kids h3 {
+    font-size: 24px;
+  }
+
+  .title-box-kids::after {
+    content: "";
+    border-top: 40px solid #ff3d00;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 198px;
+  }
 }
 
-.title-box-kids h3 {
-  font-size: 24px;
-}
+@media only screen and (min-width: 1000px) {
+  .title-box-kids {
+    background-color: #ff3d00;
+    color: #fff;
+    width: 210px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-kids::after {
-  content: "";
-  border-top: 40px solid #ff3d00;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 198px;
+  .title-box-kids h3 {
+    font-size: 24px;
+  }
+
+  .title-box-kids::after {
+    content: "";
+    border-top: 40px solid #ff3d00;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 198px;
+  }
 }
 
 .kids-shoes {
