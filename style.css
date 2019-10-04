@@ -28,7 +28,7 @@ body {
 
   .navbar-brand img {
     /*nabar for big screen*/
-    height: 40px;
+    height: 44px;
   }
 
   .navbar-nav li {
@@ -57,7 +57,7 @@ body {
 }
 
 .fa-bars {
-  color: #000000;
+  color: #000000de;
   font-size: 30px !important;
 }
 
@@ -768,7 +768,7 @@ hr {
     font-size: 24px;
   }
 
-  .title-box-women_sandal::after {
+  /* .title-box-women_sandal::after {
     content: "";
     border-top: 40px solid #f44336;
     border-right: 50px solid transparent;
@@ -776,34 +776,32 @@ hr {
     display: flex;
     margin-top: -4px;
     margin-left: 184px;
-  }
+  } */
 }
 
-@media only screen and (min-width: 1000px) {
-  .title-box-women_sandal {
-    background-color: #f44336;
-    color: #fff;
-    width: 195px;
-    padding: 4px 10px;
-    height: 40px;
-    margin-bottom: 30px;
-    display: flex;
-    border-radius: 3px;
-  }
+.title-box-women_sandal {
+  background-color: #f44336;
+  color: #fff;
+  width: 195px;
+  padding: 4px 10px;
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 3px;
+}
 
-  .title-box-women_sandal h3 {
-    font-size: 24px;
-  }
+.title-box-women_sandal h3 {
+  font-size: 24px;
+}
 
-  .title-box-women_sandal::after {
-    content: "";
-    border-top: 40px solid #f44336;
-    border-right: 50px solid transparent;
-    position: absolute;
-    display: flex;
-    margin-top: -4px;
-    margin-left: 184px;
-  }
+.title-box-women_sandal::after {
+  content: "";
+  border-top: 40px solid #f44336;
+  border-right: 50px solid transparent;
+  position: absolute;
+  display: flex;
+  margin-top: -4px;
+  margin-left: 184px;
 }
 
 .women-sandal {
@@ -848,7 +846,6 @@ hr {
     margin-left: 198px;
   }
 }
-
 
 @media only screen and (min-width: 1000px) {
   .title-box-kids {
