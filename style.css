@@ -28,8 +28,8 @@ body {
 } */
 
   .navbar-brand img {
-    /*nabar for big screen*/
-    height: 44px;
+    /*nabar for small screen*/
+    height: 47px;
   }
 
   .navbar-nav li {
@@ -345,7 +345,7 @@ hr {
   color: #1c2a2e;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
   .logo-img {
     position: absolute;
     height: 75%;
@@ -754,22 +754,22 @@ hr {
 
 /*----------------------- Women's sandal--------------------- */
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 320px) {
   .title-box-women_sandal {
     background-color: #f44336;
     color: #fff;
-    width: 175px;
+    width: 160px;
     padding: 4px 10px;
     height: 35px;
     margin-bottom: 30px;
     display: flex;
-    border-radius: 3px;
+    /* border-radius: 5px; */
   }
 
   .title-box-women_sandal h3 {
     font-size: 20px;
   }
-
+  /* 
   .title-box-women_sandal::after {
     content: "";
     border-top: 35px solid #f44336;
@@ -778,9 +778,9 @@ hr {
     display: flex;
     margin-top: -4px;
     margin-left: 164px;
-  }
+  } */
 }
-/* 
+
 @media only screen and (min-width: 900px) {
   .title-box-women_sandal {
     background-color: #f44336;
@@ -806,7 +806,7 @@ hr {
     margin-top: -4px;
     margin-left: 184px;
   }
-} */
+}
 
 .women-sandal {
   margin: 40px 0;
