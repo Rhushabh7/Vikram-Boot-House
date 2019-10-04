@@ -152,34 +152,66 @@ body {
 }
 
 /* <!---------------------More Nike products Section--------------------> */
+@media only screen and (min-width: 320px) {
+  .More-products {
+    margin: 30px 0;
+  }
 
-.More-products {
-  margin: 30px 0;
+  .title-box-more_product {
+    background-color: #009432;
+    color: #fff;
+    width: 190px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-more_product h3 {
+    font-size: 24px;
+  }
+
+  .title-box-more_product::after {
+    content: "";
+    border-top: 40px solid #009432;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 179px;
+  }
 }
 
-.title-box-more_product {
-  background-color: #009432;
-  color: #fff;
-  width: 190px;
-  padding: 4px 10px;
-  height: 40px;
-  margin-bottom: 30px;
-  display: flex;
-  border-radius: 3px;
-}
+@media only screen and (min-width: 1000px) {
+  .More-products {
+    margin: 30px 0;
+  }
 
-.title-box-more_product h3 {
-  font-size: 24px;
-}
+  .title-box-more_product {
+    background-color: #009432;
+    color: #fff;
+    width: 190px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
 
-.title-box-more_product::after {
-  content: "";
-  border-top: 40px solid #009432;
-  border-right: 50px solid transparent;
-  position: absolute;
-  display: flex;
-  margin-top: -4px;
-  margin-left: 179px;
+  .title-box-more_product h3 {
+    font-size: 24px;
+  }
+
+  .title-box-more_product::after {
+    content: "";
+    border-top: 40px solid #009432;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 179px;
+  }
 }
 
 .More-products img {
@@ -312,7 +344,7 @@ hr {
   color: #1c2a2e;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 360px) {
   .logo-img {
     position: absolute;
     height: 75%;
@@ -353,37 +385,26 @@ hr {
   .title-box-men {
     background-color: #00b894;
     color: #fff;
-    width: 164px;
+    width: 235px;
     padding: 4px 10px;
-    height: 30px;
+    height: 40px;
     margin-bottom: 30px;
     display: flex;
     border-radius: 3px;
   }
 
   .title-box-men h3 {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .title-box-men::after {
     content: "";
-    border-top: 30px solid #00b894;
+    border-top: 40px solid #00b894;
     border-right: 50px solid transparent;
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 152px;
-  }
-
-  .mens-shoes {
-    margin: 40px 0;
-  }
-
-  .mens-shoes img {
-    width: 100%;
-    padding: 20px 0;
-    transition: 1s;
-    cursor: pointer;
+    margin-left: 224px;
   }
 }
 
@@ -412,17 +433,17 @@ hr {
     margin-top: -4px;
     margin-left: 224px;
   }
+}
 
-  .mens-shoes {
-    margin: 40px 0;
-  }
+.mens-shoes {
+  margin: 40px 0;
+}
 
-  .mens-shoes img {
-    width: 100%;
-    padding: 20px 0;
-    transition: 1s;
-    cursor: pointer;
-  }
+.mens-shoes img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
 }
 
 /* <!------------------Mens-Sandal section--------------------------> */
@@ -431,26 +452,26 @@ hr {
   .title-box-mens_sandal {
     background-color: #f1c40f;
     color: #fff;
-    width: 120px;
+    width: 175px;
     padding: 4px 10px;
-    height: 30px;
+    height: 40px;
     margin-bottom: 30px;
     display: flex;
     border-radius: 3px;
   }
 
   .title-box-mens_sandal h3 {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .title-box-mens_sandal::after {
     content: "";
-    border-top: 30px solid #f1c40f;
+    border-top: 40px solid #f1c40f;
     border-right: 50px solid transparent;
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 108px;
+    margin-left: 163px;
   }
 }
 
@@ -486,26 +507,26 @@ hr {
   .title-box-mens_chappal {
     background-color: #795548;
     color: #fff;
-    width: 130px;
+    width: 195px;
     padding: 4px 10px;
-    height: 30px;
+    height: 40px;
     margin-bottom: 30px;
     display: flex;
     border-radius: 3px;
   }
 
   .title-box-mens_chappal h3 {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .title-box-mens_chappal::after {
     content: "";
-    border-top: 30px solid #795548;
+    border-top: 40px solid #795548;
     border-right: 50px solid transparent;
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 118px;
+    margin-left: 183px;
   }
 }
 
@@ -535,32 +556,32 @@ hr {
     margin-left: 183px;
   }
 }
-/*----------------------- Mens office shoes---------------------- */
 
+/*----------------------- Mens office shoes---------------------- */
 @media only screen and (min-width: 320px) {
   .title-box-men_officeshoes {
     background-color: #000000;
     color: #fff;
-    width: 157px;
+    width: 225px;
     padding: 4px 10px;
-    height: 30px;
+    height: 40px;
     margin-bottom: 30px;
     display: flex;
     border-radius: 3px;
   }
 
   .title-box-men_officeshoes h3 {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .title-box-men_officeshoes::after {
     content: "";
-    border-top: 30px solid #000000;
+    border-top: 40px solid #000000;
     border-right: 50px solid transparent;
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 145px;
+    margin-left: 213px;
   }
 }
 
@@ -590,6 +611,7 @@ hr {
     margin-left: 213px;
   }
 }
+
 /* <!--------------------------------------------------------------------------------------> */
 
 /* ================================================================================================== */
@@ -613,9 +635,7 @@ hr {
   .title-box-women h3 {
     font-size: 24px;
   }
-}
 
-@media only screen and (min-width: 1000px) {
   .title-box-women::after {
     content: "";
     border-top: 40px solid #fd79a8;
@@ -625,21 +645,47 @@ hr {
     margin-top: -4px;
     margin-left: 183px;
   }
+}
 
-  .women-shoes {
-    margin: 40px 0;
+@media only screen and (min-width: 1000px) {
+  .title-box-women {
+    background-color: #fd79a8;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
   }
 
-  .women-shoes img {
-    width: 100%;
-    padding: 20px 0;
-    transition: 1s;
-    cursor: pointer;
+  .title-box-women h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women::after {
+    content: "";
+    border-top: 40px solid #fd79a8;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 183px;
   }
 }
 
-/*----------------------- Women's Chappal--------------------- */
+.women-shoes {
+  margin: 40px 0;
+}
 
+.women-shoes img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/*----------------------- Women's Chappal--------------------- */
 @media only screen and (min-width: 320px) {
   .title-box-women_chappal {
     background-color: #273c75;
@@ -802,6 +848,7 @@ hr {
     margin-left: 198px;
   }
 }
+
 
 @media only screen and (min-width: 1000px) {
   .title-box-kids {
