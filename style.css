@@ -762,7 +762,7 @@ hr {
   .title-box-women_sandal {
     background-color: #f44336;
     color: #fff;
-    width: 201px;
+    width: 200px;
     padding: 4px 10px;
     height: 40px;
     margin-bottom: 30px;
@@ -781,7 +781,7 @@ hr {
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 187px;
+    margin-left: 187.5px;
   }
 }
 
@@ -904,6 +904,6 @@ hr {
 }
 
 h6 {
-  color: #ba7b48;
+  /* color: #ba7b48; */
   font-weight: bold;
 }
