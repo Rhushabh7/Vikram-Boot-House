@@ -374,6 +374,10 @@ hr {
   }
 }
 
+.fas .fa-caret-square-up {
+  float: right;
+}
+
 /* <!-- ===============================Index Page finished here================================== --> */
 
 /* ================================================================================================== */
@@ -758,30 +762,30 @@ hr {
   .title-box-women_sandal {
     background-color: #f44336;
     color: #fff;
-    width: 160px;
+    width: 190px;
     padding: 4px 10px;
-    height: 35px;
+    height: 40px;
     margin-bottom: 30px;
     display: flex;
     /* border-radius: 5px; */
   }
 
   .title-box-women_sandal h3 {
-    font-size: 20px;
+    font-size: 24px;
   }
-  /* 
+
   .title-box-women_sandal::after {
     content: "";
-    border-top: 35px solid #f44336;
+    border-top: 40px solid #f44336;
     border-right: 50px solid transparent;
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 164px;
-  } */
+    margin-left: 179px;
+  }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .title-box-women_sandal {
     background-color: #f44336;
     color: #fff;
@@ -887,4 +891,19 @@ hr {
   padding: 20px 0;
   transition: 1s;
   cursor: pointer;
+}
+/* 
+.fas .fa-angle-up {
+  color: #ba7b48;
+  color: #fff;
+} */
+
+.top-arrow {
+  float: right;
+  color: #ba7b48;
+}
+
+h6 {
+  color: #ba7b48;
+  font-weight: bold;
 }
