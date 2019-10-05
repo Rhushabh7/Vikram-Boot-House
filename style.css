@@ -180,7 +180,7 @@ body {
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 179px;
+    margin-left: 178px;
   }
 }
 
@@ -211,7 +211,7 @@ body {
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 179px;
+    margin-left: 178px;
   }
 }
 
@@ -384,7 +384,7 @@ hr {
 /* ================================= CSS for Men Page started from here============================================ */
 /* ================================================================================================== */
 
-/* <!----------------Men's Shoes section----------------------> */
+/* <!----------------Men's Shoes(Sport) section----------------------> */
 
 @media only screen and (min-width: 320px) {
   .title-box-men {
@@ -409,7 +409,7 @@ hr {
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 224px;
+    margin-left: 223px;
   }
 }
 
@@ -436,7 +436,7 @@ hr {
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 224px;
+    margin-left: 223px;
   }
 }
 
@@ -762,34 +762,7 @@ hr {
   .title-box-women_sandal {
     background-color: #f44336;
     color: #fff;
-    width: 190px;
-    padding: 4px 10px;
-    height: 40px;
-    margin-bottom: 30px;
-    display: flex;
-    /* border-radius: 5px; */
-  }
-
-  .title-box-women_sandal h3 {
-    font-size: 24px;
-  }
-
-  .title-box-women_sandal::after {
-    content: "";
-    border-top: 40px solid #f44336;
-    border-right: 50px solid transparent;
-    position: absolute;
-    display: flex;
-    margin-top: -4px;
-    margin-left: 179px;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .title-box-women_sandal {
-    background-color: #f44336;
-    color: #fff;
-    width: 195px;
+    width: 201px;
     padding: 4px 10px;
     height: 40px;
     margin-bottom: 30px;
@@ -808,7 +781,34 @@ hr {
     position: absolute;
     display: flex;
     margin-top: -4px;
-    margin-left: 184px;
+    margin-left: 187px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-women_sandal {
+    background-color: #f44336;
+    color: #fff;
+    width: 200px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women_sandal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_sandal::after {
+    content: "";
+    border-top: 40px solid #f44336;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 188px;
   }
 }
 
