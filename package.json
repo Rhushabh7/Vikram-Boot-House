@@ -1,0 +1,22 @@
+{
+  "name": "2-vikramboothouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "smooth-scroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanming363/Vikram-Boot-House.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanming363/Vikram-Boot-House/issues"
+  },
+  "homepage": "https://github.com/tanming363/Vikram-Boot-House#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

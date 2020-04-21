@@ -1,0 +1,907 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+
+/*-----------------------------Navbar section-------------------------- */
+
+@media only screen and (min-width: 320px) {
+  #nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .navbar {
+    background-color: #dbc295;
+    padding: 0;
+  }
+  /* .navbar-brand img {
+  height: 50px;
+  padding-left: 20px;
+} */
+
+  .navbar-brand img {
+    /*nabar for small screen*/
+    height: 47px;
+  }
+
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+
+  .navbar-nav li a {
+    color: #000000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+  }
+
+  #nav-bar .dropdown-menu {
+    float: right;
+    background-color: #dbc295;
+    box-shadow: none !important;
+    border: none;
+    text-align-last: right;
+  }
+
+  /* .active,
+  .nav-item:hover {
+    border-bottom: 2px solid #000000;
+  } */
+}
+
+.fa-bars {
+  color: #000000;
+  font-size: 30px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  background-color: #dbc295;
+}
+
+.fa-cart-plus {
+  right: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  #nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .navbar {
+    background-color: #dbc295;
+    padding: 0;
+  }
+  /* .navbar-brand img {
+  height: 50px;
+  padding-left: 20px;
+} */
+
+  .navbar-brand img {
+    /*nabar for big screen*/
+    height: 60px;
+  }
+
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+
+  .navbar-nav li a {
+    color: #000000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+  }
+
+  .active,
+  .nav-item:hover {
+    border-bottom: 2px solid #000000;
+  }
+
+  #nav-bar .dropdown-menu {
+    font-size: 14px;
+    float: right;
+    background-color: #dbc295;
+    box-shadow: none !important;
+    border: none;
+    text-align-last: left;
+    border-radius: 0px;
+    padding: 0;
+    margin-top: -1px;
+    border-radius: 3px;
+  }
+}
+
+/* <!-----------------------Page-2 Frame Section ---------------------------> */
+
+.Featured-category {
+  margin: 40px 0;
+}
+
+.Featured-category img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.wrapper button {
+  background: #000000;
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  box-shadow: none !important;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.wrapper button:hover {
+  color: #fff;
+  background: #ba7b48;
+}
+
+/* <!---------------------More Nike products Section--------------------> */
+@media only screen and (min-width: 320px) {
+  .More-products {
+    margin: 30px 0;
+  }
+
+  .title-box-more_product {
+    background-color: #009432;
+    color: #fff;
+    width: 190px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-more_product h3 {
+    font-size: 24px;
+  }
+
+  .title-box-more_product::after {
+    content: "";
+    border-top: 40px solid #009432;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 178px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .More-products {
+    margin: 30px 0;
+  }
+
+  .title-box-more_product {
+    background-color: #009432;
+    color: #fff;
+    width: 190px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-more_product h3 {
+    font-size: 24px;
+  }
+
+  .title-box-more_product::after {
+    content: "";
+    border-top: 40px solid #009432;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 178px;
+  }
+}
+
+.More-products img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper .btn {
+  z-index: 1;
+  top: 20%;
+}
+
+.More-products .btn {
+  background: #000000;
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  width: 99px;
+  /* border-radius: 19px; */
+  box-shadow: none !important;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.More-products .btn:hover {
+  color: #fff;
+}
+
+/* <!------------------------------------Footer Section--------------------------> */
+
+#footer {
+  background: #1c2a2e;
+  /* background: #fff; */
+  color: #dbc295;
+}
+
+#footer p {
+  font-size: 16px;
+}
+
+.logo-img {
+  position: absolute;
+  height: 80%;
+  margin-bottom: 20px;
+  margin-top: 15%;
+  margin-left: -40%;
+}
+
+#p1 {
+  text-align: justify;
+  width: 80%;
+}
+
+.footer-box .fas {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 35px;
+  width: 35px;
+  border-radius: 25px;
+  background: #ba7b48;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  margin-top: 20px;
+  max-width: 260px;
+  background-color: #dbc295;
+}
+/* .footer-box .form-control {
+    color: #f00;
+} */
+
+.footer-box button {
+  background: #ba7b48;
+  text-align: center;
+  color: #dbc295;
+  padding: 7px;
+  max-width: 100px;
+  box-shadow: none !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: #ba7b48;
+}
+
+.address:hover {
+  border-bottom: 1px solid #ba7b48;
+  color: #ba7b48;
+}
+
+.para {
+  margin-top: 10%;
+}
+
+hr {
+  background: #ba7b48;
+}
+
+.copyright {
+  margin-bottom: 0;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+
+.social-icons .fab {
+  text-align: center;
+  color: #ba7b48;
+  transition: 0.5s;
+  padding: 5px;
+}
+
+.social-icons a:hover i {
+  transform: translateY(-6px);
+}
+
+#icon {
+  color: #1c2a2e;
+}
+
+@media screen and (min-width: 320px) {
+  .logo-img {
+    position: absolute;
+    height: 75%;
+    margin-bottom: 20px;
+    margin-left: -40%;
+    margin-top: 25%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .logo-img {
+    position: absolute;
+    height: 75%;
+    margin-bottom: 20px;
+    margin-left: 9%;
+    margin-top: 18%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  /*nabar for big screen*/
+
+  .navbar-brand img {
+    height: 50px;
+    padding-left: 20px;
+  }
+}
+
+.fas .fa-caret-square-up {
+  float: right;
+}
+
+/* <!-- ===============================Index Page finished here================================== --> */
+
+/* ================================================================================================== */
+/* ================================= CSS for Men Page started from here============================================ */
+/* ================================================================================================== */
+
+/* <!----------------Men's Shoes(Sport) section----------------------> */
+
+@media only screen and (min-width: 320px) {
+  .title-box-men {
+    background-color: #00b894;
+    color: #fff;
+    width: 235px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-men h3 {
+    font-size: 24px;
+  }
+
+  .title-box-men::after {
+    content: "";
+    border-top: 40px solid #00b894;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 223px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-men {
+    background-color: #00b894;
+    color: #fff;
+    width: 235px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-men h3 {
+    font-size: 24px;
+  }
+
+  .title-box-men::after {
+    content: "";
+    border-top: 40px solid #00b894;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 223px;
+  }
+}
+
+.mens-shoes {
+  margin: 40px 0;
+}
+
+.mens-shoes img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* <!------------------Mens-Sandal section--------------------------> */
+
+@media only screen and (min-width: 320px) {
+  .title-box-mens_sandal {
+    background-color: #f1c40f;
+    color: #fff;
+    width: 175px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-mens_sandal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-mens_sandal::after {
+    content: "";
+    border-top: 40px solid #f1c40f;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 163px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-mens_sandal {
+    background-color: #f1c40f;
+    color: #fff;
+    width: 175px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-mens_sandal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-mens_sandal::after {
+    content: "";
+    border-top: 40px solid #f1c40f;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 163px;
+  }
+}
+/*----------------------- Mens chappal---------------------- */
+
+@media only screen and (min-width: 320px) {
+  .title-box-mens_chappal {
+    background-color: #795548;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-mens_chappal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-mens_chappal::after {
+    content: "";
+    border-top: 40px solid #795548;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 183px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-mens_chappal {
+    background-color: #795548;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-mens_chappal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-mens_chappal::after {
+    content: "";
+    border-top: 40px solid #795548;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 183px;
+  }
+}
+
+/*----------------------- Mens office shoes---------------------- */
+@media only screen and (min-width: 320px) {
+  .title-box-men_officeshoes {
+    background-color: #000000;
+    color: #fff;
+    width: 225px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-men_officeshoes h3 {
+    font-size: 24px;
+  }
+
+  .title-box-men_officeshoes::after {
+    content: "";
+    border-top: 40px solid #000000;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 213px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-men_officeshoes {
+    background-color: #000000;
+    color: #fff;
+    width: 225px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-men_officeshoes h3 {
+    font-size: 24px;
+  }
+
+  .title-box-men_officeshoes::after {
+    content: "";
+    border-top: 40px solid #000000;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 213px;
+  }
+}
+
+/* <!--------------------------------------------------------------------------------------> */
+
+/* ================================================================================================== */
+/* ================================= CSS for Women Page started from here======================================== */
+/* ================================================================================================== */
+
+/* <!------------------Women's-shoes section--------------------------> */
+
+@media only screen and (min-width: 320px) {
+  .title-box-women {
+    background-color: #fd79a8;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women::after {
+    content: "";
+    border-top: 40px solid #fd79a8;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 183px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-women {
+    background-color: #fd79a8;
+    color: #fff;
+    width: 195px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women::after {
+    content: "";
+    border-top: 40px solid #fd79a8;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 183px;
+  }
+}
+
+.women-shoes {
+  margin: 40px 0;
+}
+
+.women-shoes img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/*----------------------- Women's Chappal--------------------- */
+@media only screen and (min-width: 320px) {
+  .title-box-women_chappal {
+    background-color: #273c75;
+    color: #fff;
+    width: 230px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women_chappal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_chappal::after {
+    content: "";
+    border-top: 40px solid #273c75;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 218px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-women_chappal {
+    background-color: #273c75;
+    color: #fff;
+    width: 230px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women_chappal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_chappal::after {
+    content: "";
+    border-top: 40px solid #273c75;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 218px;
+  }
+}
+
+.women-chappal {
+  margin: 40px 0;
+}
+
+.women-chappal img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/*----------------------- Women's sandal--------------------- */
+
+@media only screen and (min-width: 320px) {
+  .title-box-women_sandal {
+    background-color: #f44336;
+    color: #fff;
+    width: 200px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women_sandal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_sandal::after {
+    content: "";
+    border-top: 40px solid #f44336;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 187.5px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-women_sandal {
+    background-color: #f44336;
+    color: #fff;
+    width: 200px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-women_sandal h3 {
+    font-size: 24px;
+  }
+
+  .title-box-women_sandal::after {
+    content: "";
+    border-top: 40px solid #f44336;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 188px;
+  }
+}
+
+.women-sandal {
+  margin: 40px 0;
+}
+
+.women-sandal img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* ================================================================================================== */
+/* ================================= CSS for Children Page started from here============================================ */
+/* ================================================================================================== */
+
+/* <!------------------Kids-shoes section--------------------------> */
+@media only screen and (min-width: 320px) {
+  .title-box-kids {
+    background-color: #ff3d00;
+    color: #fff;
+    width: 210px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-kids h3 {
+    font-size: 24px;
+  }
+
+  .title-box-kids::after {
+    content: "";
+    border-top: 40px solid #ff3d00;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 198px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-box-kids {
+    background-color: #ff3d00;
+    color: #fff;
+    width: 165px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 3px;
+  }
+
+  .title-box-kids h3 {
+    font-size: 24px;
+  }
+
+  .title-box-kids::after {
+    content: "";
+    border-top: 40px solid #ff3d00;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 153px;
+  }
+}
+
+.kids-shoes {
+  margin: 40px 0;
+}
+
+.kids-shoes img {
+  width: 100%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+/* 
+.fas .fa-angle-up {
+  color: #ba7b48;
+  color: #fff;
+} */
+
+.top-arrow {
+  float: right;
+  color: #ba7b48;
+}
+
+h6 {
+  /* color: #ba7b48; */
+  font-weight: bold;
+}
