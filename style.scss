@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +6,8 @@ body {
   box-sizing: border-box;
 }
 
+$navbar-padding-y:0;
+$navbar-padding-x:0;
 /*-----------------------------Navbar section-------------------------- */
 
 @media only screen and (min-width: 320px) {
@@ -29,6 +30,10 @@ body {
   .navbar-brand img {
     /*nabar for small screen*/
     height: 47px;
+    width: 218px;
+  }
+  .navbar-toggler.fa-bars {
+    font-size: 10px;
   }
 
   .navbar-nav li {
@@ -90,6 +95,7 @@ body {
   .navbar-brand img {
     /*nabar for big screen*/
     height: 60px;
+    width: auto;
   }
 
   .navbar-nav li {
@@ -906,8 +912,6 @@ h6 {
   /* color: #ba7b48; */
   font-weight: bold;
 }
-
-
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 // @import "../node_modules/bootstrap/scss/bootstrap";
